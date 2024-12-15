@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transfer List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="list-container">
+            <ul id="left-list" class="list">
+                <li><input type="checkbox" value="HTML"> HTML</li>
+                <li><input type="checkbox" value="CSS"> CSS</li>
+                <li><input type="checkbox" value="TS"> TS</li>
+                <li><input type="checkbox" value="JS"> JS</li>
+            </ul>
+        </div>
+        <div class="buttons">
+            <button id="move-right">&gt;</button>
+            <button id="move-left">&lt;</button>
+        </div>
+        <div class="list-container">
+            <ul id="right-list" class="list">
+                <!-- Items moved here will appear -->
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
